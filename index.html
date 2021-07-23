@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
-   
+    <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
    <link rel="stylesheet" href="style.css">
   
 </head>
@@ -25,24 +25,13 @@
      <p style="font-size: 22px;">This App is trained to Analyze the following people and objects: </p>
       <br>
       <br>
+      <hr>
       <h3>Me</h3>
-      <br>
       <br>
       <hr>
       <h3>Brother</h3>
       <br>
-      <br>
       <hr>
-      <h3>Tchaikovsky Statue (If You Don't Know About Him, Copy And Paste This Link in A New Tab: https://en.wikipedia.org/wiki/Pyotr_Ilyich_Tchaikovsky</h3>
-      <br>
-      <br>
-      <hr>
-      <h3>Dog Man Mothering Heights Book</h3>
-      <br>
-      <br>
-      <hr>
-      <br>
-      <br>
       <h2>Webcam View 👇🏻</h2>
       <div id="camera"> 
     </div>
@@ -58,10 +47,10 @@
     <br>
     <h2>Results Will Show Here 👇🏻</h2>
     <br>
-    <h2>Object :  <span id="object_name"></span></h2>
+    <h2>Object :  <span id="object_name" class="text-capitalize"></span></h2>
     <br>
     <br>
-    <h2>Accuracy :  <span id="acurracy"></span></h2>
+    <h2>Accuracy :  <span id="acurracy" class="text-capitalize"></span></h2>
    </center>
    </div> 
    <script src="main.js"></script>
